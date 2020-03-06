@@ -5,4 +5,4 @@ def Fibonacci(n):
 def main(len):
     for i in range(1,len+1):
         print('Fibonacci(',i,')=',Fibonacci(i))
-print(main(200))
+main(200)
